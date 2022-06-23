@@ -2,8 +2,15 @@
  * @section siteFooter
  */
 .l-siteFooter {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 .b-siteFooter {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }

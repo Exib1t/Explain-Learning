@@ -1,0 +1,111 @@
+.l-contentGuide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: $BGwhite;
+}
+
+.b-contentGuide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 1264px;
+  box-sizing: border-box;
+  padding: 100px 20px 147px 20px;
+  margin: 0;
+
+  &__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 392px;
+  }
+
+  &__articleTitle {
+    font-family: $Nunito;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    color: $fontLightBlue;
+    padding: 0;
+    margin: 0 0 16px 0;
+
+    &.-wrapper {
+      margin: 0 0 26px 0;
+    }
+  }
+
+  &__articleImageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &:hover {
+      .b-contentGuide__articleHoverText {
+        opacity: 1;
+        transition: all .3s ease;
+      }
+
+      .b-contentGuide__imageMask {
+        opacity: 1;
+        transition: all .3s ease;
+      }
+    }
+  }
+
+  &__imageMask {
+    opacity: 0;
+    position: absolute;
+    background: rgba(25, 28, 36, 0.8);
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease;
+  }
+
+  &__articleImage {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  }
+
+  &__articleHoverText {
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__articleText {
+    font-family: $Nunito;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: $fontWhite;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 295px;
+  }
+}

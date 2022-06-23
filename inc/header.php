@@ -26,6 +26,10 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+
   <!--<meta name="theme-color" content="#ed1c24" />-->
 
   <link rel="stylesheet" href="assets/css/main.min.css?<?php echo filemtime( 'assets/css/main.min.css' ); ?>" />
@@ -47,21 +51,10 @@
           </<?php echo $siteLogo__tag; ?>>
         </div>
 
-        <div class="l-siteSearch">
-          <form class="b-siteSearch" role="search" method="post" action="#">
-            <label class="b-siteSearch__search">
-              <span class="b-siteSearch__label g-visuallyhidden">Search:</span>
-              <input class="b-siteSearch__input" type="search" name="s" spellcheck="true" />
-            </label>
-
-            <input class="b-siteSearch__button" type="submit" value="Search" />
-          </form>
-        </div>
-
         <nav class="l-mainNavigation">
           <ul class="b-mainNavigation">
-            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Home</a>
+            <li class="b-mainNavigation__item">
+              <a class="b-mainNavigation__link" href="#">Subscribe Now</a>
             </li>
           </ul>
         </nav>

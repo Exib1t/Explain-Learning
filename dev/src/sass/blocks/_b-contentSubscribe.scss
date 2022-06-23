@@ -1,0 +1,92 @@
+.l-contentSubscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.b-contentSubscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1264px;
+  box-sizing: border-box;
+  padding: 140px 20px 0 20px;
+  margin: 0;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 80px 20px 52px 20px;
+    width: 100%;
+    background: $BGgreenGradient;
+    border-radius: 4px;
+  }
+
+  &__title {
+    font-family: $Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: $fontWhite;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+
+  &__lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 0;
+    margin: 0 0 34px 0;
+    gap: 8px;
+  }
+
+  &__line {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 1px;
+  }
+
+  &__text {
+    font-family: $Nunito;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: $fontWhite;
+    padding: 0;
+    margin: 0 0 44px 0;
+    width: 100%;
+    max-width: 850px;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 21px 66px 22px 65px;
+    margin: 0;
+    font-family: $Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: $fontBlack;
+    background: $BGwhite;
+    width: max-content;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+}

@@ -1,0 +1,72 @@
+.l-contentStress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.b-contentStress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1264px;
+  box-sizing: border-box;
+  padding: 148px 20px 136px 20px;
+  margin: 0;
+  gap: 64px;
+
+  &__img {
+    display: block;
+  }
+
+  &__side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &Title {
+      font-family: $Nunito;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 40px;
+      color: $fontWhite;
+      padding: 0;
+      margin: 0 0 24px 0;
+      width: 100%;
+      max-width: 234px;
+    }
+
+    &Line {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: #26A1EB;
+      border-radius: 1px;
+      padding: 0;
+      margin: 0 0 34px 0;
+    }
+
+    &Text {
+      font-family: $Nunito;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      color: $fontWhite;
+      padding: 0 0 0 41px;
+      margin: 0;
+      width: 100%;
+      max-width: 335px;
+
+      p {
+        margin: 0 0 47px 0;
+
+        &:last-of-type {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

@@ -2,15 +2,22 @@
  * @section siteCopyright
  */
 .l-siteCopyright {
-  color: #464646;
-  font: 11px $Arial;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1264px;
+  box-sizing: border-box;
+  padding: 16px 20px;
+  margin: 0;
 }
 .b-siteCopyright {
-  margin: 15px 0;
-  @include first-last-margin;
-
-  &__link {
-    @include hover-underline;
-    color: inherit;
-  }
+  font-family: $Nunito;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: $fontGray;
+  padding: 0;
+  margin: 0;
 }

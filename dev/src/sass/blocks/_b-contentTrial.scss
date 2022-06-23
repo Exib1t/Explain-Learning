@@ -1,0 +1,71 @@
+.l-contentTrial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.b-contentTrial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1264px;
+  box-sizing: border-box;
+  padding: 150px 20px 0 20px;
+  margin: 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1016px;
+    background-image: url('../../assets/img/blocks/contentTrial/outline.png');
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 36px 60px;
+  }
+
+  &__text {
+    font-family: $Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: $fontWhite;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 704px;
+
+    p {
+      padding: 0;
+      margin: 0;
+    }
+
+    b {
+      font-weight: 800;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: $fontWhite;
+    box-sizing: border-box;
+    background: $BGgreen;
+    padding: 21px 48px 22px 48px;
+    margin: 0;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+}
