@@ -54,7 +54,7 @@
         <nav class="l-mainNavigation">
           <ul class="b-mainNavigation">
             <li class="b-mainNavigation__item">
-              <a class="b-mainNavigation__link" href="#">Subscribe Now</a>
+              <a class="b-mainNavigation__link hvr-bounce-to-right" href="#">Subscribe Now</a>
             </li>
           </ul>
         </nav>

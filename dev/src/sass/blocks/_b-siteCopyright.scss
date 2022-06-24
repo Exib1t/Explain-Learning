@@ -10,6 +10,7 @@
   box-sizing: border-box;
   padding: 16px 20px;
   margin: 0;
+  gap: 10px;
 }
 .b-siteCopyright {
   font-family: $Nunito;
@@ -20,4 +21,9 @@
   color: $fontGray;
   padding: 0;
   margin: 0;
+
+  @media screen and (max-width: 460px) {
+    font-size: 12px;
+    line-height: 20px;
+  }
 }

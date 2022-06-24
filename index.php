@@ -9,7 +9,7 @@ require( 'inc/header.php' );
   <div class="l-firstScreen">
     <div class="b-firstScreen">
 <!--      <div class="b-firstScreen__imgWrapper">-->
-<!--        <img src="assets/img/blocks/firstScreen/macbook.png" alt="MacBook" class="b-firstScreen__img">-->
+        <img src="assets/img/blocks/firstScreen/macbook.png" alt="MacBook" class="b-firstScreen__img">
 <!--      </div>-->
       <div class="b-firstScreen__side">
         <div class="b-firstScreen__sideText b-text">
@@ -17,7 +17,7 @@ require( 'inc/header.php' );
             <p><span>Share</span>, <span>Process</span>, and <span>Organize</span>.</p>
             <p><span>Teach</span>, <span>Learn</span>, and <span class="-underline">Finish Early</span>.</p>
         </div>
-        <a href="#" class="b-firstScreen__sideButton">Subscribe Now</a>
+        <a href="#" class="b-firstScreen__sideButton hvr-bounce-to-right">Subscribe Now</a>
       </div>
     </div>
   </div>
@@ -58,10 +58,9 @@ require( 'inc/header.php' );
 
   <div class="l-contentCommunity">
     <div class="b-contentCommunity">
-      <img src="assets/img/blocks/contentCommunity/image_1.png" alt="image" class="b-contentCommunity__img">
+      <img src="assets/img/blocks/contentCommunity/image_1.jpg" alt="image" class="b-contentCommunity__img">
       <div class="b-contentCommunity__textSide">
         <h2 class="b-contentCommunity__title">Never Leave Your Community</h2>
-        <img src="assets/img/blocks/contentCommunity/line.svg" alt="line" class="b-contentCommunity__line">
         <div class="b-contentCommunity__text b-text"><p>You can meet in person, or work remotely with your group. Plus, use Tutors, who are anyone else using the site. You interact like in person, but with a smartphone call. The site folders and sharing are the same. This allows multiple groups to daisy-chain and learn together. So, if you're stumped, you can get outside help from someone new. All the groups can do it, even while working separately intensely.</p></div>
       </div>
     </div>
@@ -113,7 +112,7 @@ require( 'inc/header.php' );
   <div class="l-contentInfo">
     <div class="b-contentInfo">
       <div class="b-contentInfo__article">
-        <img src="assets/img/blocks/contentInfo/image_1.png" alt="image" class="b-contentInfo__articleImage">
+        <img src="assets/img/blocks/contentInfo/image_1.jpg" alt="image" class="b-contentInfo__articleImage">
         <h2 class="b-contentInfo__articleTitle">The Study Guide System</h2>
         <div class="b-contentInfo__articleLines">
           <span class="b-contentInfo__articleLine"></span>
@@ -134,20 +133,17 @@ require( 'inc/header.php' );
           <h2 class="b-contentInfo__blockTitle">Constantly Talk About
             Your Studies, and
             Learn Out Loud.</h2>
-          <span class="b-contentInfo__blockLine"></span>
           <div class="b-contentInfo__blockText b-text"><p>You'll have the confidence for the test, and be prepared for it with your notes, study guides, and all of your filed and organized documents. You'll also keep them after the class, for review, at any time.</p></div>
         </div>
-        <img src="assets/img/blocks/contentInfo/image_2.png" alt="image" class="b-contentInfo__blockImage">
+        <img src="assets/img/blocks/contentInfo/image_2.jpg" alt="image" class="b-contentInfo__blockImage">
       </div>
 
       <div class="b-contentInfo__reasons">
-        <div class="b-contentInfo__reasonsText b-text">
-          <p>With the Explain Learning study system app, you'll never get behind, lonely, bored,
-            or overwhelmed. You'll have the connections and more time to study.</p>
-          <span>Why?</span>
-          <p>The hardest classes now have four to six people talking and working together,
-            with up to five tutor members, instead of one person studying alone.</p>
-        </div>
+        <p class="b-contentInfo__reasonsText">With the Explain Learning study system app, you'll never get behind, lonely, bored,
+          or overwhelmed. You'll have the connections and more time to study.</p>
+        <span class="b-contentInfo__reasonsSpan">Why?</span>
+        <p class="b-contentInfo__reasonsText">The hardest classes now have four to six people talking and working together,
+          with up to five tutor members, instead of one person studying alone.</p>
       </div>
     </div>
   </div>
@@ -167,17 +163,16 @@ require( 'inc/header.php' );
     <div class="b-contentFlashcards">
       <div class="b-contentFlashcards__photos">
         <div class="b-contentFlashcards__photosColumn">
-          <img src="assets/img/blocks/contentFlashcards/image1.png" alt="" class="b-contentFlashcards__image">
-          <img src="assets/img/blocks/contentFlashcards/image2.png" alt="" class="b-contentFlashcards__image">
+          <img src="assets/img/blocks/contentFlashcards/image1.jpg" alt="" class="b-contentFlashcards__image">
+          <img src="assets/img/blocks/contentFlashcards/image2.jpg" alt="" class="b-contentFlashcards__image">
         </div>
         <div class="b-contentFlashcards__photosColumn">
-          <img src="assets/img/blocks/contentFlashcards/image3.png" alt="" class="b-contentFlashcards__image">
-          <img src="assets/img/blocks/contentFlashcards/image4.png" alt="" class="b-contentFlashcards__image">
+          <img src="assets/img/blocks/contentFlashcards/image3.jpg" alt="" class="b-contentFlashcards__image">
+          <img src="assets/img/blocks/contentFlashcards/image4.jpg" alt="" class="b-contentFlashcards__image">
         </div>
       </div>
       <div class="b-contentFlashcards__article">
         <h2 class="b-contentFlashcards__articleTitle">We "Get" Flashcards.</h2>
-        <span class="b-contentFlashcards__articleLine"></span>
         <div class="b-contentFlashcards__articleText">Advanced design for language classes, English vocabulary, Biology or Science pictures and terms, Math formulas, Chemistry formulas, or pictures and Anatomy terms. Take a picture of something in a book and upload. Learn while you make your own flashcards,
           or share doc's with another person's creations with the group's Share Documents Folder.</div>
       </div>
@@ -190,7 +185,7 @@ require( 'inc/header.php' );
         <div class="b-contentTrial__text"><p>Search through the Explain Learning web app
             and set up a group for a <b>two week trial - free</b>.</p>
         </div>
-        <a href="#" class="b-contentTrial__button">Click Here</a>
+        <a href="#" class="b-contentTrial__button hvr-bounce-to-right">Click Here</a>
       </div>
     </div>
   </div>
@@ -201,12 +196,11 @@ require( 'inc/header.php' );
         <h2 class="b-contentImprove__sideTitle">Focus on the Easiest
           Ways to Improve
           Your GPA</h2>
-        <span class="b-contentImprove__sideLine"></span>
         <div class="b-contentImprove__sideText">
           <p>Get the social study support, organization, and study methods you need. Stress less, sleep more. Graduate by having more fun with more people, who want to achieve. Spread out the work among buddies, and think better- open your mind to the information with clarity and organization. And make records so coming back to the information later in your career is as simple as putting in a flash drive.</p>
         </div>
       </div>
-      <img src="assets/img/blocks/contentImprove/image.png" alt="" class="b-contentImprove__img">
+      <img src="assets/img/blocks/contentImprove/image.jpg" alt="" class="b-contentImprove__img">
     </div>
   </div>
 
@@ -223,18 +217,17 @@ require( 'inc/header.php' );
           <p>Only pay <b>$3.99 per month</b> for up to four groups you can use.
             Your <b>first two</b> weeks are <b>free</b>.</p>
         </div>
-        <a href="#" class="b-contentSubscribe__button">Subscribe Now</a>
+        <a href="#" class="b-contentSubscribe__button hvr-bounce-to-right">Subscribe Now</a>
       </div>
     </div>
   </div>
 
   <div class="l-contentStress">
     <div class="b-contentStress">
-      <img src="assets/img/blocks/contentStress/image.png" alt="stress" class="b-contentStress__img">
+      <img src="assets/img/blocks/contentStress/image.jpg" alt="stress" class="b-contentStress__img">
       <div class="b-contentStress__side">
         <h3 class="b-contentStress__sideTitle">No More Fear,
           and Stress...</h3>
-        <span class="b-contentStress__sideLine"></span>
         <div class="b-contentStress__sideText b-text">
           <p>Your day just got easier with Explain Learning. No more fear, and stress from it, about learning.</p>
             <p>This is just the most efficient way

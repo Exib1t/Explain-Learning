@@ -4,6 +4,10 @@
 .l-mainNavigation {
   width: max-content;
   height: 100%;
+
+  @media screen and (max-width: 420px) {
+    display: none;
+  }
 }
 .b-mainNavigation {
   display: block;

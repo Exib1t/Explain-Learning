@@ -1,0 +1,22 @@
+/*!
+ * Hover.css (http://ianlunn.github.io/Hover/)
+ * Version: 2.3.2
+ * Author: Ian Lunn @IanLunn
+ * Author URL: http://ianlunn.co.uk/
+ * Github: https://github.com/IanLunn/Hover
+
+ * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
+ */
+
+@import "options";
+@import "mixins";
+@import "hacks";
+
+
+/* BACKGROUND TRANSITIONS */
+@import "effects/background-transitions/bounce-to-right";
+@if $includeClasses {
+	.#{$nameSpace}-bounce-to-right {
+		@include bounce-to-right();
+	}
+}

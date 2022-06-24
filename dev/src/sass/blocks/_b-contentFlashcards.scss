@@ -8,6 +8,7 @@
 .b-contentFlashcards {
   display: flex;
   justify-content: center;
+  align-items: stretch;
   width: 100%;
   max-width: 1264px;
   box-sizing: border-box;
@@ -15,11 +16,31 @@
   margin: 0;
   gap: 24px;
 
+  @media screen and (max-width: 960px) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 80px 20px;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding: 60px 20px;
+  }
+
+  @media screen and (max-width: 460px) {
+    padding: 40px 20px;
+  }
+
+  @media screen and (max-width: 340px) {
+    padding: 20px;
+  }
+
   &__photos {
     display: flex;
     justify-content: center;
     gap: 12px;
-    height: 100%;
 
     &Column {
       display: flex;
@@ -28,24 +49,36 @@
       gap: 12px;
 
       &:last-of-type {
-        margin: 68px 0 0 0;
+        align-self: flex-end;
+
+        @media screen and (max-width: 576px) {
+          display: none;
+        }
       }
     }
   }
 
   &__image {
     display: block;
+    border-radius: 4px;
   }
 
   &__article {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: max-content;
     background: $BGgray;
     border-radius: 4px;
     box-sizing: border-box;
     padding: 64px 64px 52px 60px;
+
+    @media screen and (max-width: 460px) {
+      padding: 40px;
+    }
+
+    @media screen and (max-width: 400px) {
+      padding: 20px;
+    }
 
     &Title {
       font-family: $Nunito;
@@ -55,17 +88,31 @@
       line-height: 40px;
       color: $fontWhite;
       padding: 0;
-      margin: 0 0 36px 0;
-    }
+      margin: 0;
 
-    &Line {
-      display: block;
-      width: 24px;
-      height: 2px;
-      background: #26A1EB;
-      border-radius: 1px;
-      padding: 0;
-      margin: 0 0 26px 0;
+      @media screen and (max-width: 460px) {
+        font-size: 30px;
+        line-height: 34px;
+      }
+
+      @media screen and (max-width: 400px) {
+        font-size: 26px;
+        line-height: 30px;
+      }
+
+      &::after {
+        content: "";
+        display: block;
+        width: 24px;
+        height: 2px;
+        background: #26A1EB;
+        border-radius: 1px;
+        margin: 36px 0 26px 0;
+
+        @media screen and (max-width: 460px) {
+          margin: 10px 0;
+        }
+      }
     }
 
     &Text {
@@ -79,6 +126,11 @@
       margin: 0;
       width: 100%;
       max-width: 372px;
+
+      @media screen and (max-width: 460px) {
+        font-size: 16px;
+        line-height: 26px;
+      }
     }
   }
 }

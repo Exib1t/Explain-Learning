@@ -15,6 +15,22 @@
   padding: 140px 20px 0 20px;
   margin: 0;
 
+  @media screen and (max-width: 768px) {
+    padding: 80px 20px 0 20px;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding: 60px 20px 0 20px;
+  }
+
+  @media screen and (max-width: 460px) {
+    padding: 40px 20px 0 20px;
+  }
+
+  @media screen and (max-width: 340px) {
+    padding: 20px;
+  }
+
   &__wrapper {
     display: flex;
     flex-direction: column;
@@ -24,6 +40,18 @@
     width: 100%;
     background: $BGgreenGradient;
     border-radius: 4px;
+
+    @media screen and (max-width: 576px) {
+      padding: 60px 20px;
+    }
+
+    @media screen and (max-width: 460px) {
+      padding: 40px 20px;
+    }
+
+    @media screen and (max-width: 400px) {
+      padding: 20px 20px;
+    }
   }
 
   &__title {
@@ -36,6 +64,17 @@
     color: $fontWhite;
     padding: 0;
     margin: 0 0 20px 0;
+
+    @media screen and (max-width: 460px) {
+      font-size: 30px;
+      line-height: 34px;
+      margin: 0 0 15px 0;
+    }
+
+    @media screen and (max-width: 400px) {
+      font-size: 26px;
+      line-height: 30px;
+    }
   }
 
   &__lines {
@@ -46,6 +85,10 @@
     padding: 0;
     margin: 0 0 34px 0;
     gap: 8px;
+
+    @media screen and (max-width: 460px) {
+      margin: 0 0 15px 0;
+    }
   }
 
   &__line {
@@ -68,6 +111,17 @@
     margin: 0 0 44px 0;
     width: 100%;
     max-width: 850px;
+
+    @media screen and (max-width: 576px) {
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    @media screen and (max-width: 460px) {
+      font-size: 20px;
+      line-height: 26px;
+      margin: 0 0 20px 0;
+    }
   }
 
   &__button {
@@ -88,5 +142,10 @@
     width: max-content;
     text-decoration: none;
     border-radius: 8px;
+
+    @media screen and (max-width: 460px) {
+      padding: 10px;
+      width: 100%;
+    }
   }
 }
