@@ -6,7 +6,7 @@ require( 'inc/header.php' );
 ?>
 
 <main class="l-contentText">
-  <div class="l-firstScreen">
+  <section class="l-firstScreen">
     <div class="b-firstScreen">
 <!--      <div class="b-firstScreen__imgWrapper">-->
         <img src="assets/img/blocks/firstScreen/macbook.png" alt="MacBook" class="b-firstScreen__img">
@@ -20,9 +20,9 @@ require( 'inc/header.php' );
         <a href="#" class="b-firstScreen__sideButton hvr-bounce-to-right">Subscribe Now</a>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="l-contentAbout">
+  <section class="l-contentAbout">
     <div class="b-contentAbout">
       <img src="assets/img/blocks/contentAbout/image_1.png" alt="about" class="b-contentAbout__img">
       <div class="b-contentAbout__text b-text">
@@ -54,9 +54,9 @@ require( 'inc/header.php' );
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="l-contentCommunity">
+  <section class="l-contentCommunity">
     <div class="b-contentCommunity">
       <img src="assets/img/blocks/contentCommunity/image_1.jpg" alt="image" class="b-contentCommunity__img">
       <div class="b-contentCommunity__textSide">
@@ -64,9 +64,9 @@ require( 'inc/header.php' );
         <div class="b-contentCommunity__text b-text"><p>You can meet in person, or work remotely with your group. Plus, use Tutors, who are anyone else using the site. You interact like in person, but with a smartphone call. The site folders and sharing are the same. This allows multiple groups to daisy-chain and learn together. So, if you're stumped, you can get outside help from someone new. All the groups can do it, even while working separately intensely.</p></div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="l-contentGuide">
+  <section class="l-contentGuide">
     <div class="b-contentGuide">
       <div class="b-contentGuide__article">
         <h3 class="b-contentGuide__articleTitle">Intuitive Flashcards</h3>
@@ -107,9 +107,9 @@ require( 'inc/header.php' );
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="l-contentInfo">
+  <section class="l-contentInfo">
     <div class="b-contentInfo">
       <div class="b-contentInfo__article">
         <img src="assets/img/blocks/contentInfo/image_1.jpg" alt="image" class="b-contentInfo__articleImage">
@@ -127,28 +127,34 @@ require( 'inc/header.php' );
             one processed by two to six people in one group, and up to five tutor group members, INSTEAD OF ONE.</p>
         </div>
       </div>
+    </div>
+  </section>
 
-      <div class="b-contentInfo__block">
-        <div class="b-contentInfo__blockSide">
-          <h2 class="b-contentInfo__blockTitle">Constantly Talk About
-            Your Studies, and
-            Learn Out Loud.</h2>
-          <div class="b-contentInfo__blockText b-text"><p>You'll have the confidence for the test, and be prepared for it with your notes, study guides, and all of your filed and organized documents. You'll also keep them after the class, for review, at any time.</p></div>
-        </div>
-        <img src="assets/img/blocks/contentInfo/image_2.jpg" alt="image" class="b-contentInfo__blockImage">
+  <section class="l-contentLearn">
+    <div class="b-contentLearn">
+      <div class="b-contentLearn__side">
+        <h2 class="b-contentLearn__title">Constantly Talk About
+          Your Studies, and
+          Learn Out Loud.</h2>
+        <div class="b-contentLearn__text b-text"><p>You'll have the confidence for the test, and be prepared for it with your notes, study guides, and all of your filed and organized documents. You'll also keep them after the class, for review, at any time.</p></div>
       </div>
+      <img src="assets/img/blocks/contentInfo/image_2.jpg" alt="image" class="b-contentLearn__img">
+    </div>
+  </section>
 
-      <div class="b-contentInfo__reasons">
-        <p class="b-contentInfo__reasonsText">With the Explain Learning study system app, you'll never get behind, lonely, bored,
+  <section class="l-contentReasons">
+    <div class="b-contentReasons">
+      <div class="b-contentReasons__wrapper">
+        <p class="b-contentReasons__text">With the Explain Learning study system app, you'll never get behind, lonely, bored,
           or overwhelmed. You'll have the connections and more time to study.</p>
-        <span class="b-contentInfo__reasonsSpan">Why?</span>
-        <p class="b-contentInfo__reasonsText">The hardest classes now have four to six people talking and working together,
+        <span class="b-contentReasons__span">Why?</span>
+        <p class="b-contentReasons__text">The hardest classes now have four to six people talking and working together,
           with up to five tutor members, instead of one person studying alone.</p>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="l-contentGroups">
+  <section class="l-contentGroups">
     <div class="b-contentGroups">
       <h2 class="b-contentGroups__title">Manage your groups for the best school experience.</h2>
       <img src="assets/img/blocks/contentGroups/image_1.jpg" alt="manage groups" class="b-contentGroups__image">
@@ -157,9 +163,9 @@ require( 'inc/header.php' );
       </div>
       <img src="assets/img/blocks/contentGroups/image_2.jpg" alt="pop up" class="b-contentGroups__image">
     </div>
-  </div>
+  </section>
 
-  <div class="l-contentFlashcards">
+  <section class="l-contentFlashcards">
     <div class="b-contentFlashcards">
       <div class="b-contentFlashcards__photos">
         <div class="b-contentFlashcards__photosColumn">
@@ -177,9 +183,9 @@ require( 'inc/header.php' );
           or share doc's with another person's creations with the group's Share Documents Folder.</div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="l-contentTrial">
+  <section class="l-contentTrial">
     <div class="b-contentTrial">
       <div class="b-contentTrial__wrapper">
         <div class="b-contentTrial__text"><p>Search through the Explain Learning web app
@@ -188,9 +194,9 @@ require( 'inc/header.php' );
         <a href="#" class="b-contentTrial__button hvr-bounce-to-right">Click Here</a>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="l-contentImprove">
+  <section class="l-contentImprove">
     <div class="b-contentImprove">
       <div class="b-contentImprove__side">
         <h2 class="b-contentImprove__sideTitle">Focus on the Easiest
@@ -202,9 +208,9 @@ require( 'inc/header.php' );
       </div>
       <img src="assets/img/blocks/contentImprove/image.jpg" alt="" class="b-contentImprove__img">
     </div>
-  </div>
+  </section>
 
-  <div class="l-contentSubscribe">
+  <section class="l-contentSubscribe">
     <div class="b-contentSubscribe">
       <div class="b-contentSubscribe__wrapper">
         <h3 class="b-contentSubscribe__title">Subscribe</h3>
@@ -220,9 +226,9 @@ require( 'inc/header.php' );
         <a href="#" class="b-contentSubscribe__button hvr-bounce-to-right">Subscribe Now</a>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="l-contentStress">
+  <section class="l-contentStress">
     <div class="b-contentStress">
       <img src="assets/img/blocks/contentStress/image.jpg" alt="stress" class="b-contentStress__img">
       <div class="b-contentStress__side">
@@ -235,7 +241,7 @@ require( 'inc/header.php' );
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
 </main>
 

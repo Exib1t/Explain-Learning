@@ -1,0 +1,79 @@
+.l-contentReasons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.b-contentReasons {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 1264px;
+  width: 100%;
+  padding: 0 20px 148px 20px;
+  margin: 0;
+
+  @media screen and (max-width: 460px) {
+    padding: 20px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 32px 20px 41px 20px;
+    margin: 0;
+    background: url('../../assets/img/blocks/contentInfo/ReasonsBG.png'),
+    url('../../assets/img/blocks/contentInfo/ReasonsBG_2.png'),
+    $BGgreenGradient;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+
+    @media screen and (max-width: 460px) {
+      padding: 20px;
+    }
+  }
+
+  &__text {
+    font-family: $Nunito;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    color: $fontWhite;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 808px;
+
+    @media screen and (max-width: 460px) {
+      font-size: 14px;
+      line-height: 26px;
+    }
+  }
+
+  &__span {
+    font-family: $Nunito;
+    font-style: normal;
+    text-align: center;
+    color: $fontWhite;
+    margin: 22px 0;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 66px;
+    box-sizing: border-box;
+    padding: 10px 27px;
+    border: 1px dashed #FFFFFF;
+    border-radius: 124px;
+
+    @media screen and (max-width: 460px) {
+      font-size: 30px;
+      line-height: 55px;
+    }
+  }
+}

@@ -13,7 +13,7 @@
   width: 100%;
   max-width: 1264px;
   box-sizing: border-box;
-  padding: 110px 20px 148px 20px;
+  padding: 110px 20px 0 20px;
 
   @media screen and (max-width: 768px) {
     padding: 80px 20px;
@@ -41,20 +41,11 @@
     background: $BGgray;
     border-radius: 4px;
     padding: 0 0 76px 0;
-    margin: 0 0 127px 0;
+    margin: 0;
     overflow: auto;
-
-    @media screen and (max-width: 768px) {
-      margin: 80px;
-    }
-
-    @media screen and (max-width: 576px) {
-      margin: 60px;
-    }
 
     @media screen and (max-width: 460px) {
       padding: 0 0 20px 0;
-      margin: 40px;
     }
   }
 
@@ -143,172 +134,6 @@
 
       &:last-of-type {
         margin: 0;
-      }
-    }
-  }
-
-  &__block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 125px;
-    padding: 0;
-    margin: 0 0 144px 0;
-
-    @media screen and (max-width: 960px) {
-      flex-direction: column;
-    }
-
-    @media screen and (max-width: 768px) {
-      margin: 0 0 80px 0;
-      gap: 80px;
-    }
-
-    @media screen and (max-width: 576px) {
-      margin: 0 0 60px 0;
-      gap: 50px;
-    }
-
-    @media screen and (max-width: 460px) {
-      margin: 0 0 40px 0;
-      gap: 20px;
-    }
-
-    &Side {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    &Title {
-      font-family: $Nunito;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 40px;
-      color: $fontWhite;
-      padding: 0;
-      margin: 0;
-      width: 100%;
-      max-width: 384px;
-
-      @media screen and (max-width: 460px) {
-        font-size: 30px;
-        line-height: 34px;
-      }
-
-      @media screen and (max-width: 400px) {
-        font-size: 26px;
-        line-height: 30px;
-      }
-
-      &::after {
-        content: "";
-        display: block;
-        width: 24px;
-        height: 2px;
-        background: #26A1EB;
-        border-radius: 1px;
-        margin: 24px 0 34px 0;
-
-        @media screen and (max-width: 460px) {
-          margin: 10px 0;
-        }
-      }
-    }
-
-    &Text {
-      font-family: $Nunito;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 32px;
-      color: $fontWhite;
-      padding: 0 0 0 41px;
-      margin: 0;
-      width: 100%;
-      max-width: 335px;
-
-      @media screen and (max-width: 460px) {
-        font-size: 16px;
-        line-height: 26px;
-      }
-
-      @media screen and (max-width: 440px) {
-        padding: 0 0 0 20px;
-      }
-
-      @media screen and (max-width: 340px) {
-        padding: 0;
-      }
-    }
-
-    &Image {
-      display: block;
-      width: 100%;
-      max-width: 496px;
-      height: 100%;
-      max-height: 444px;
-      border-radius: 4px;
-    }
-  }
-
-  &__reasons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 32px 20px 41px 20px;
-    margin: 0;
-    background: url('../../assets/img/blocks/contentInfo/ReasonsBG.png'),
-    url('../../assets/img/blocks/contentInfo/ReasonsBG_2.png'),
-    $BGgreenGradient;
-    background-repeat: no-repeat;
-    border-radius: 4px;
-
-    @media screen and (max-width: 460px) {
-      padding: 20px;
-    }
-
-    &Text {
-      font-family: $Nunito;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 40px;
-      text-align: center;
-      color: $fontWhite;
-      padding: 0;
-      margin: 0;
-      width: 100%;
-      max-width: 808px;
-
-      @media screen and (max-width: 460px) {
-        font-size: 14px;
-        line-height: 26px;
-      }
-    }
-
-    .b-contentInfo__reasonsSpan {
-      font-family: $Nunito;
-      font-style: normal;
-      text-align: center;
-      color: $fontWhite;
-      margin: 22px 0;
-      font-weight: 900;
-      font-size: 36px;
-      line-height: 66px;
-      box-sizing: border-box;
-      padding: 10px 27px;
-      border: 1px dashed #FFFFFF;
-      border-radius: 124px;
-
-      @media screen and (max-width: 460px) {
-        font-size: 30px;
-        line-height: 55px;
       }
     }
   }

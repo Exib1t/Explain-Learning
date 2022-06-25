@@ -4,10 +4,6 @@
 .l-mainNavigation {
   width: max-content;
   height: 100%;
-
-  @media screen and (max-width: 420px) {
-    display: none;
-  }
 }
 .b-mainNavigation {
   display: block;
@@ -38,5 +34,13 @@
     text-decoration: none;
     color: $fontWhite;
     background: $BGpurple;
+
+    @media screen and (max-width: 420px) {
+      padding: 11px 20px 10px 20px;
+    }
+
+    @media screen and (max-width: 340px) {
+      padding: 11px 10px 10px 10px;
+    }
   }
 }
