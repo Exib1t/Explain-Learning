@@ -136,7 +136,7 @@ require( 'inc/header.php' );
           Learn Out Loud.</h2>
         <div class="b-contentLearn__text b-text"><p>You'll have the confidence for the test, and be prepared for it with your notes, study guides, and all of your filed and organized documents. You'll also keep them after the class, for review, at any time.</p></div>
       </div>
-      <img src="assets/img/blocks/contentInfo/image_2.jpg" alt="image" class="b-contentLearn__img">
+      <img src="assets/img/blocks/contentLearn/image_2.jpg" alt="image" class="b-contentLearn__img">
     </div>
   </section>
 
