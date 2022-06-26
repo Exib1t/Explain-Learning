@@ -8,9 +8,7 @@ require( 'inc/header.php' );
 <main class="l-contentText">
   <section class="l-firstScreen">
     <div class="b-firstScreen">
-<!--      <div class="b-firstScreen__imgWrapper">-->
-        <img src="assets/img/blocks/firstScreen/macbook.png" alt="MacBook" class="b-firstScreen__img">
-<!--      </div>-->
+      <img src="assets/img/blocks/firstScreen/macbook.png" alt="MacBook" class="b-firstScreen__img">
       <div class="b-firstScreen__side">
         <div class="b-firstScreen__sideText b-text">
           <p>If You Don't <span>Hear</span> It, You Don't <span>Learn</span> It.</p>
@@ -223,7 +221,7 @@ require( 'inc/header.php' );
           <p>Only pay <b>$3.99 per month</b> for up to four groups you can use.
             Your <b>first two</b> weeks are <b>free</b>.</p>
         </div>
-        <a href="#" class="b-contentSubscribe__button hvr-bounce-to-right">Subscribe Now</a>
+        <a href="#" class="b-contentSubscribe__button hvr-glow">Subscribe Now</a>
       </div>
     </div>
   </section>

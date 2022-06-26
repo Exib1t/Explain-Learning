@@ -11,6 +11,10 @@
   padding: 16px 20px;
   margin: 0;
   gap: 10px;
+
+  @media screen and (max-width: 576px) {
+    flex-direction: column;
+  }
 }
 .b-siteCopyright {
   font-family: $Nunito;

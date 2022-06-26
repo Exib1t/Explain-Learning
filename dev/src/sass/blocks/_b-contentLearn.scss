@@ -17,7 +17,7 @@
   margin: 0;
 
   @media screen and (max-width: 960px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   @media screen and (max-width: 768px) {
@@ -43,6 +43,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    max-width: 384px;
   }
 
   &__title {
@@ -55,7 +57,6 @@
     padding: 0;
     margin: 0;
     width: 100%;
-    max-width: 384px;
 
     @media screen and (max-width: 460px) {
       font-size: 30px;
@@ -89,10 +90,10 @@
     font-size: 20px;
     line-height: 32px;
     color: $fontWhite;
+    box-sizing: border-box;
     padding: 0 0 0 41px;
     margin: 0;
     width: 100%;
-    max-width: 335px;
 
     @media screen and (max-width: 460px) {
       font-size: 16px;

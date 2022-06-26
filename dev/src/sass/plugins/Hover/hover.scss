@@ -20,3 +20,10 @@
 		@include bounce-to-right();
 	}
 }
+
+@import "effects/shadow-and-glow-transitions/glow";
+@if $includeClasses {
+  .#{$nameSpace}-glow {
+    @include glow();
+  }
+}

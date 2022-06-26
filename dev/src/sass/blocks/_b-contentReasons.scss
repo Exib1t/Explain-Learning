@@ -27,10 +27,10 @@
     width: 100%;
     padding: 32px 20px 41px 20px;
     margin: 0;
-    background: url('../../assets/img/blocks/contentInfo/ReasonsBG.png'),
-    url('../../assets/img/blocks/contentInfo/ReasonsBG_2.png'),
+    background: url('../../assets/img/blocks/contentInfo/ReasonsBG_2.png'), url('../../assets/img/blocks/contentInfo/ReasonsBG.png'),
     $BGgreenGradient;
     background-repeat: no-repeat;
+    background-position: center;
     border-radius: 4px;
 
     @media screen and (max-width: 460px) {
@@ -65,7 +65,7 @@
     margin: 22px 0;
     font-weight: 900;
     font-size: 36px;
-    line-height: 66px;
+    line-height: 1;
     box-sizing: border-box;
     padding: 10px 27px;
     border: 1px dashed #FFFFFF;
@@ -73,7 +73,6 @@
 
     @media screen and (max-width: 460px) {
       font-size: 30px;
-      line-height: 55px;
     }
   }
 }
