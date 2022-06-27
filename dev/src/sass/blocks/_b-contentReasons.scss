@@ -8,6 +8,8 @@
 .b-contentReasons {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   max-width: 1264px;
   width: 100%;
@@ -25,9 +27,10 @@
     align-items: center;
     box-sizing: border-box;
     width: 100%;
+    max-width: 1016px;
     padding: 32px 20px 41px 20px;
     margin: 0;
-    background: url('../assets/img/blocks/contentReasons/ReasonsBG_2.png'), url('../../assets/img/blocks/contentReasons/ReasonsBG.png'),
+    background: url('../../assets/img/blocks/contentReasons/ReasonsBG_2.png'), url('../../assets/img/blocks/contentReasons/ReasonsBG.png'),
     $BGgreenGradient;
     background-repeat: no-repeat;
     background-position: center;
@@ -49,7 +52,7 @@
     padding: 0;
     margin: 0;
     width: 100%;
-    max-width: 808px;
+    max-width: 695px;
 
     @media screen and (max-width: 460px) {
       font-size: 14px;
